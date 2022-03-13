@@ -13,6 +13,7 @@ import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Selectors.byText;
 import static com.codeborne.selenide.Selectors.withText;
 import static com.codeborne.selenide.Selenide.*;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class SearchTestsIgromania {
 
@@ -80,5 +81,6 @@ public class SearchTestsIgromania {
         $(byText(testData3 + testData4 + testData1)).click();
         $(".name-layers").shouldHave(text(testData3 + testData1));
     }
+
 
 }
