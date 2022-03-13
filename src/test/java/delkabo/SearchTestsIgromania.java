@@ -82,11 +82,5 @@ public class SearchTestsIgromania {
         $(".name-layers").shouldHave(text(testData3 + testData1));
     }
 
-    @Test
-    void testBranch1() {
-        assertTrue(2 < 3);
-    }
-
-
 
 }
