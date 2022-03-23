@@ -95,6 +95,7 @@ public class SearchTestsIgromania {
     @Test
     void testBranch3() {
         assertTrue(2 < 3);
+        System.out.println("change from delkobro");
     }
 
 }
