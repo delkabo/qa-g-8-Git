@@ -94,7 +94,7 @@ public class SearchTestsIgromania {
 
     @Test
     void testBranch3() {
-        assertTrue(2 < 3);
+        assertTrue(1 < 3);
     }
 
 }
